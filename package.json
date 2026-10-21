@@ -1,0 +1,18 @@
+{
+  "name": "fm-sdr-tuner-plugin",
+  "version": "1.0.0",
+  "description": "fm-dx-webserver plugin: floating control panel for FM-SDR-Tuner's REST SDR settings",
+  "author": "Bkram Developments",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "lint:js": "eslint .",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "lint": "npm run lint:js && npm run lint:md"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "markdownlint-cli2": "^0.14.0"
+  }
+}
